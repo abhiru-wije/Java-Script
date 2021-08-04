@@ -1,0 +1,17 @@
+{
+    {
+        "name": "qazi",
+        "age": 25,
+        "height": 190
+    },
+    {
+        "name": "Abhiru",
+        "age": 56,
+        "height": 164
+    }
+} 
+
+/* console.log(JSON.parse(student));
+ */ 
+ // this is how you call json files 
+ 

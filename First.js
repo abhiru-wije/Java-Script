@@ -1,19 +1,19 @@
-// increment number
+/* // increment number
 var num1 = 10;
 num1++;
-console.log(num1);
-
-// increment in differrent Way
- num1 += 9;
 console.log(num1); */
 
-Functions in JS
+/* // increment in differrent Way
+ num1 += 9;
+console.log(num1); */ 
+/* 
+//Functions in JS
 function fun(){
     alert("This is a function");
 }
 fun();
-
-// example
+ */
+/* // example
 function greetings() {
     let name = prompt("What is your name? ");
     let result = 'Hello' + ' ' + name;
@@ -59,11 +59,11 @@ console.log(fruit.replace('ban', 'Abh')); //replace
 console.log(fruit.toUpperCase());
 console.log(fruit.toLowerCase());
 console.log(fruit.charAt(3)); 
-console.log(fruit[3]); //these are same things
+console.log(fruit[3]); //these are same things */
 
 
 
-// Array
+/* // Array
 let fruit = ['banana', 'apple', 'orange'];
 friend = new Array ('sithum', 'sashini', 'Abhiru');
 
@@ -94,8 +94,8 @@ console.log(all.reverse()); //reverse array brings last element to first
 let numbers  = [2,6,49,16,21,2323,46,49,64,999,45];
 console.log(numbers.sort()); //sort the array
 console.log(numbers.sort(function(a,b) {return a-b})); //sorted in asending order
-console.log(numbers.sort(function(a,b) {return b-a})); //sorted in desending order
-
+console.log(numbers.sort(function(a,b) {return b-a})); //sorted in desending order */
+/* 
 let emptyArray = new Array();
 for (let num = 0; num <= 10; num++){
     emptyArray.push(num);
@@ -109,10 +109,10 @@ let student = {  first: 'rafeh',
                  studentInfo: function(){
                      return this.first + '\n' + this.last;
                  }};
+ */
 
 
-
-console.log(student.first);
+/* console.log(student.first);
 console.log(student.last);
 console.log(student.age);
 console.log(student.height);
@@ -120,4 +120,35 @@ student.first = 'Abhiru'; // change the object variables
 console.log(student.first);
 student.age++; //increment object variable by 1
 console.log(student.age);
-console.log(student.studentInfo());
+console.log(student.studentInfo()); */
+
+//conditionals, if else statements
+/* var age = prompt('What is your age? ');
+
+if ((age >= 18) && (age <= 35)) {
+    status = 'target demo';
+    console.log(status);
+} else {
+    status = 'not my audience';
+    console.log(status);
+} */
+
+//Switch statement
+//differentiaite between weekdays vs. weekend
+/* switch(5) {
+    case 0:
+        text = 'sunday';
+        break;
+    case 5:
+        text = 'friday';
+        break;
+    case 6:
+        text = 'Weekend';
+        break;
+    default:
+        text = 'Abhiru';
+        
+}
+console.log(text); */
+
+//json files
