@@ -109,9 +109,6 @@ let student = {  first: 'rafeh',
                  studentInfo: function(){
                      return this.first + '\n' + this.last;
                  }};
-
-
-
 console.log(student.first);
 console.log(student.last);
 console.log(student.age);
