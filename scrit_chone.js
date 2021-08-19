@@ -32,7 +32,7 @@ function rpsGame(yourChoice) {
     result = decideWinner(humanChoice, botChoice);
     message = finalMessage(result);
     FrontEnd(yourChoice.id ,botChoice, message);
-
+}
 
 function randomNum (){
     return Math.floor(Math.random() * 3);
@@ -83,7 +83,7 @@ function FrontEnd (humanImageChoice, botImageChoice, finalMessage) {
 
 
     document.getElementById('game-container').appendChild[humanDiv];
-    document.getElementById('game-container').appendChild(messageDiv);
+    document.getElementById('game-container').appendChild[messageDiv];
     document.getElementById('game-container').appendChild[botDiv];
     
-}}
+}
