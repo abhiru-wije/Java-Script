@@ -50,3 +50,11 @@ function sayHello(nameOfPerson){
 }
 
 sayHello("sashini");
+sayHello("sithum");
+sayHello("Abhiru");
+
+function hello (nameOfPerson, age){
+    console.log("your name is "+ nameOfPerson + " your age is " + age);
+}
+
+hello("sasini", 10);
