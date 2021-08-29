@@ -58,3 +58,17 @@ function hello (nameOfPerson, age){
 }
 
 hello("sasini", 10);
+
+function plus(a, b){
+    console.log(a+b);
+}
+plus(12,5)
+
+const player1 = {
+    name: "Abhiru",
+    sayHello8: function(otherPersonName){
+        console.log("hello! " + otherPersonName);
+    },
+};
+console.log(player1.name);
+player1.sayHello8("Sashini")
